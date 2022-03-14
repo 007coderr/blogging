@@ -123,12 +123,11 @@ body {
   }
 /* Style the search box */ 
 #mySearch { 
-  width: 98%; 
-  font-size: 15px; 
-  padding: 16px; 
+  width: 80%; 
+  font-size: 12px; 
+  padding: 13px; 
   border: 1px solid grey; 
   border-radius: 25px; 
-  position: fixed;
 } 
 /* Style the navigation menu inside the left column */ 
 #myMenu { 
@@ -154,7 +153,7 @@ body {
   text-decoration: none;
   color: black;
   display: block;
-  font-size: 20px;
+  font-size: 15px;
 } 
 #myMenu li a:hover { 
   background-color: #eee;
