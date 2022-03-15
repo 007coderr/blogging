@@ -27,7 +27,7 @@ body {
 #navbar {
   overflow: hidden;
   background-color: white;
-  padding: 70px 5px;
+  padding: 50px 5px;
   transition: 0.4s;
   position: fixed;
   width: 100%;
@@ -50,19 +50,19 @@ body {
 #navbar #logo {
   font-size: 35px;
   font-weight: bold;
-  padding-left: 40%;
+  padding-left: 30%;
   font-family: 'Croissant One';
   transition: 0.7s;
 }
-#navbar-right {
+#navbar-right { 
   float: right;
   padding-right: 20px;
   transition: 0.7s;
 }
+
 #navbar-right a:hover {
     opacity: 0.2;
 }
-
 #navbar-left {
   float: left;
   padding-left: 20px;
