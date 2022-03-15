@@ -284,17 +284,17 @@ body {
     overflow: hidden;
     border: none;
     border-radius: 8px;
-   item-align: center;
+    align-items: center;
 }
 .wrapper{
     width: 100%;
     display: flex;
+    align-items: center;
     animation: slide 16s infinite;
 }
 
 img{
     width: 100%;
-    item-align: center;
 }
 @keyframes slide{
     0%{
