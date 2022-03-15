@@ -279,12 +279,12 @@ body {
   margin-bottom:0;
 }
 .container{
-    width: 90%;
-    position: relative;
+    width: 100%;
     transform: translate(-50%,-50%);
     overflow: hidden;
     border: none;
     border-radius: 8px;
+   item-align: center;
 }
 .wrapper{
     width: 100%;
@@ -294,6 +294,7 @@ body {
 
 img{
     width: 100%;
+    item-align: center;
 }
 @keyframes slide{
     0%{
