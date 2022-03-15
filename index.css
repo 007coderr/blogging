@@ -59,6 +59,9 @@ body {
   padding-right: 20px;
   transition: 0.7s;
 }
+#navbar-right a {
+  padding-right: 10px;
+}
 #navbar-right a:hover {
     opacity: 0.2;
 }
@@ -125,7 +128,7 @@ body {
   font-weight: bold;
   color: #fff;
   background: linear-gradient(to bottom right, #B05574, #F87E7B);
-  padding: 15px 30px;
+  padding: 10px 25px;
   border-radius: 30px;
   position: relative; 
   top: 50%;
