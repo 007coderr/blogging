@@ -5,7 +5,11 @@ body {
   font-family: poppins;
   font-size: 18px;
 }
-
+#body-header {
+  font-size: 40px;
+  text-align: center;
+  font-style: bold;
+}
 /* The popup form - hidden by default */
 .form-popup {
   display: none;
