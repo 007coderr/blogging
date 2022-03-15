@@ -22,7 +22,7 @@ body {
 }
 
 /* Full-width input fields */
-.form-container input[type=text], .form-container input[type=password] {
+.form-container input[type=text], .form-container input[type=text] {
   width: 100%;
   padding: 15px;
   margin: 5px 0 22px 0;
@@ -50,7 +50,7 @@ body {
   border-radius: 15px;
 }
 
-/* Add a red background color to the cancel button */
+/* Add a black background color to the cancel button */
 .form-container .cancel {
   background-color: black;
 }
@@ -99,7 +99,6 @@ body {
   text-decoration: none;
   font-size: 18px; 
   line-height: 25px;
-  border-radius: 4px;
 }
 
 #navbar #logo {
@@ -120,8 +119,6 @@ body {
 }
 #navbar-left {
   float: left;
-  padding-left: 20px;
-  transition: 0.7s;
   background-color: black;
   border-radius: 15px;
   color: white;
