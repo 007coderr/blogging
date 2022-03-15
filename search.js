@@ -6,8 +6,8 @@ function scrollFunction() {
     document.getElementById("navbar").style.padding = "30px 10px";
     document.getElementById("logo").style.fontSize = "25px";
   } else {
-    document.getElementById("navbar").style.padding = "70px 10px";
-    document.getElementById("logo").style.fontSize = "35px";
+    document.getElementById("navbar").style.padding = "50px 10px";
+    document.getElementById("logo").style.fontSize = "30px";
   }
 }
 // for side nav 
