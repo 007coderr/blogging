@@ -143,9 +143,10 @@ h1 {
       var questions = [
   {question:"What's your first name?"},
   {question:"What's your email?", pattern: /^[^\s@]+@[^\s@]+\.[^\s@]+$/},
-  {question:"what is your message?", type: "text"}
+  {question:"what is your message?", type: "text" action="javascript:sendMail();" method="POST"}
 ]
-
+function sendMail() {
+  mailto:code.007@icloud.com
 /**********
 
   !!!!!
@@ -176,7 +177,7 @@ h1 {
   putQuestion()
 
   progressButton.addEventListener('click', validate)
-  inputField.addEventListener('keyup', function(){mailto:code.007@icloud.com} function(e){
+  inputField.addEventListener('keyup', function(e){
     transform(0, 0) // ie hack to redraw
     if(e.keyCode == 13) validate()
   })
@@ -190,7 +191,6 @@ h1 {
     inputField.value = ''
     inputField.type = questions[position].type || 'text'  
     inputField.focus()
-    inputfield.value() {mailto:code.007@icloud.com}
     showCurrent()
   }
   
