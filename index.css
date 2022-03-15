@@ -121,10 +121,15 @@ body {
     .sidenav {padding-top: 15px;}
     .sidenav a {font-size: 18px;}
   }
+/*Trigger Button*/
 .login-trigger {
   font-weight: bold;
   color: #fff;
-  background: linear-gradient(to bottom right, #black, brown);
+  background: linear-gradient(to bottom right, #B05574, #F87E7B);
+  padding: 15px 30px;
+  border-radius: 30px;
+  position: relative; 
+  top: 50%;
 }
 
 /*Modal*/
