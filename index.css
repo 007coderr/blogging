@@ -54,7 +54,7 @@ body {
   font-family: 'Croissant One';
   transition: 0.7s;
 }
-#navbar-right { !important
+#navbar-right { 
   float: right;
   padding-right: 20px;
   transition: 0.7s;
