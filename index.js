@@ -24,6 +24,11 @@ function openNav() {
     document.getElementById("navbar-right").style.marginRight = "0";
     document.getElementById("logo").style.paddingLeft = "30%";
   }
-function sendMail() {
-  window.open('mailto:code.007@icloud.com');
+
+function openForm() {
+  document.getElementById("myForm").style.display = "block";
+}
+
+function closeForm() {
+  document.getElementById("myForm").style.display = "none";
 }
