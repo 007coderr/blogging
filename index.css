@@ -36,8 +36,8 @@ body {
   box-shadow: #818181;
 }
 
-#navbar-right a {
-  float: left;
+#navbar a {
+ 
   color: black;
   text-align: center;
   padding: 12px;
