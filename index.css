@@ -120,8 +120,9 @@ body {
 }
 #navbar-left {
   float: left;
-  text-decoration: none;
-  background-color: white;
+  padding: 0;
+  border: none;
+  background: none;
 }
 
 #navbar-left a:hover {
