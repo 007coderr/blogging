@@ -281,7 +281,7 @@ body {
 #slider {
   position: relative;
   width: 1000px;
-  height: 300px;
+  height: 400px;
   overflow: hidden;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
   align-item: center;
@@ -304,7 +304,7 @@ body {
 }
 #slider ul li img{
   width: 1000px;
-  height: 300px;
+  height: 400px;
   align-item: center
 }
 #slider #prev, #slider #next {
