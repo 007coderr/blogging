@@ -65,7 +65,17 @@ body {
 #navbar-right a:hover {
     opacity: 0.2;
 }
-
+#navbar-left {
+  float: left;
+  padding-left: 20px;
+  transition: 0.7s;
+}
+#navbar-left a {
+  padding-left: 10px;
+}
+#navbar-left a:hover {
+   opacity: 0.2;
+}
 @media screen and (max-width: 1000px) {
   #navbar {
     padding: 20px 10px !important;
@@ -77,6 +87,9 @@ body {
   }
   #navbar-right {
     float: none;
+  }
+  #navbar-left {
+  float: none;
   }
 }
 /* to design menu w/ opacity */
