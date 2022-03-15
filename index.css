@@ -280,7 +280,7 @@ body {
 }
 #slider {
   position: relative;
-  width: 1500px;
+  width: 1200px;
   height: 400px;
   overflow: hidden;
   box-shadow: 0 0 1px rgba(0, 0, 0, 0.3);
@@ -304,7 +304,7 @@ body {
   float: left;
 }
 #slider ul li img{
-  width: 1500px;
+  width: 1200px;
   height: 400px;
   align-item: center
 }
