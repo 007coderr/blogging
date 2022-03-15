@@ -279,7 +279,7 @@ body {
   margin-bottom:0;
 }
 #slider {
-  position: static;
+  position: relative;
   width: 1000px;
   height: 350px;
   overflow: hidden;
@@ -288,7 +288,7 @@ body {
   border-radius: 5%;
 }
 #slider ul {
-  position: static;
+  position: relative;
   list-style: none;
   height: 100%;
   width: 10000%;
@@ -321,6 +321,7 @@ body {
   text-shadow: 0 0 20px rgba(0, 0, 0, 0.6);
   transform: translateY(-50%);
   transition: all 150ms ease;
+  item-align: center
 }
 #slider #prev {
   left: 10px;
