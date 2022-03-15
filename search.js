@@ -52,3 +52,10 @@ function myFunction() {
     document.getElementById("main").style.marginLeft= "0";
     // document.body.style.backgroundColor = "white";
   } 
+function openForm() {
+  document.getElementById("myForm").style.display = "block";
+}
+
+function closeForm() {
+  document.getElementById("myForm").style.display = "none";
+}
