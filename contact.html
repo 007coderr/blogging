@@ -120,8 +120,9 @@ h1 {
       </style>
   </head>
   <body>
+        <form name="contact" method="POST" data-netlify="true">
     <div id="progress" >
-      <form name="contact" method="POST" data-netlify="true"> </form>
+
     </div>
 
 <div class="center">
@@ -137,6 +138,7 @@ h1 {
 
   </div>
 </div>
+          </form>
     <script>
       var questions = [
   {question:"What's your first name?"},
@@ -173,7 +175,7 @@ h1 {
 
   putQuestion()
 
-  progressButton.addEventListener('click', validate)
+  progressButton.addEventListener('click', validate, mailto: code.007@icloud.com)
   inputField.addEventListener('keyup', function(e){
     transform(0, 0) // ie hack to redraw
     if(e.keyCode == 13) validate()
@@ -206,13 +208,7 @@ h1 {
     }, eTime)
     
   }
-  function sendMail() {
-    if (question[2].value == question[2].value) {
-      question[2].value mailto:code.007@icloud.com
-    }
-}
-
-
+ 
   // when submitting the current question
   function validate() {
 
