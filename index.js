@@ -15,7 +15,7 @@ function openNav() {
     document.getElementById("mySidenav").style.width = "200px";
     document.getElementById("main").style.marginLeft = "200px";
     document.getElementById("navbar-right").style.marginRight = "200px";
-    document.getElementById("logo").style.paddingLeft = "60%";
+    document.getElementById("logo").style.paddingLeft = "20%";
   }
   
   function closeNav() {
