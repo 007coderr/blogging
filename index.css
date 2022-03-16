@@ -353,10 +353,9 @@ body {
 }
 
 /* Responsive columns */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1200px) {
   .column {
-    width: 25%;;
-    height: 50%
+    width: 50%;
     display: block;
     margin-bottom: 20px;
   }
@@ -367,4 +366,6 @@ body {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   padding: 0px;
   margin: 0;
+  width: 298px;
+  height: 415;
 }
