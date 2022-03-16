@@ -338,7 +338,7 @@ body {
 /* Float four columns side by side */
 .column {
   float: left;
-  width: 23%;
+  width: 25%;
   padding: 10px 10px;
   
 }
@@ -356,7 +356,7 @@ body {
 /* Responsive columns */
 @media screen and (max-width: 1200px) {
   .column {
-    width: 23%;
+    width: 25%;
     display: block;
     margin-bottom: 20px;
   }
