@@ -130,22 +130,24 @@ body {
 }
 @media screen and (max-width: 480px) {
   #navbar {
-    padding: 15px 10px !important;
+    padding: 20px 10px !important;
   }
   #navbar #logo {
-     font-size: 20px;
+     font-size: 25px;
   }
   #navbar a {
     float: none;
     display: inline;
     text-align: right;
-    font-size: 17px; 
+    font-size: 20px; 
   }
   #navbar-right {
     float: right;
   }
   #navbar-left {
   float: right;
+  padding-right: 20px;
+  transition: 0.7s;
   }
 }
 /* to design menu w/ opacity */
@@ -201,7 +203,7 @@ body {
 }
 @media (max-width:480px) {
   .footer-dark {
-    width: 100%;
+    width: 480px;
   } 
 }
 .footer-dark h3 {
@@ -258,7 +260,7 @@ body {
 
 @media (max-width:480px) {
   .footer-dark .item.social {
-    margin-top:5px;
+    margin-top:20px;
   }
 }
 
