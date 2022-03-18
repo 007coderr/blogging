@@ -257,11 +257,11 @@ body {
 }
 @media screen and (max-width: 500px) {
   #slider {
-  margin-left: 2px;
-  margin-right: 2px;
+  background-image: url("article4display.png"), url("article2display.png"), url("article3display.png"), url("article1display.png");
+  margin: 0;
   position: relative;
-  width: 300px;
-  height: 100px;
+  width: 600px;
+  height: 800px;
   overflow: hidden;
   box-shadow: 0 0 1px rgba(0, 0, 0, 0.3);
   align-item: center;
