@@ -260,8 +260,8 @@ body {
   margin-left: 2px;
   margin-right: 2px;
   position: relative;
-  width: 600px;
-  height: 200px;
+  width: 300px;
+  height: 100px;
   overflow: hidden;
   box-shadow: 0 0 1px rgba(0, 0, 0, 0.3);
   align-item: center;
@@ -284,8 +284,8 @@ body {
   float: left;
 }
 #slider ul li img{
-  width: 600px;
-  height: 200px;
+  width: 300px;
+  height: 100px;
   align-item: center
 }
 #slider #prev, #slider #next {
@@ -324,6 +324,7 @@ body {
     margin: 0;
     display: block;
     margin-bottom: 20px;
+    align-items: center;
   }
   .card {
    width: 600px;
