@@ -145,7 +145,7 @@ body {
     float: right;
   }
   #navbar-left {
-  float: left;
+  float: right;
   }
 }
 /* to design menu w/ opacity */
@@ -199,7 +199,11 @@ body {
   color:#f0f9ff;
   background-color:#282d32;
 }
-
+@media (max-width:480px) {
+  .footer-dark {
+    width: 100%;
+  } 
+}
 .footer-dark h3 {
   margin-top:0;
   margin-bottom:12px;
@@ -254,14 +258,13 @@ body {
 
 @media (max-width:480px) {
   .footer-dark .item.social {
-    text-align:center;
     margin-top:5px;
   }
 }
 
 .footer-dark .item.social > a {
   font-size:12px;
-  width:100%;
+  width:36px;
   height:36px;
   line-height:36px;
   display:inline-block;
