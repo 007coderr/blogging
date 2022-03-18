@@ -195,10 +195,9 @@ body {
   }
 
 .footer-dark {
-  padding: 500px 0;
+  padding: 10px 0;
   color:#f0f9ff;
   background-color:#282d32;
-  font-family: 
 }
 
 .footer-dark h3 {
@@ -262,7 +261,7 @@ body {
 
 .footer-dark .item.social > a {
   font-size:12px;
-  width:36px;
+  width:100%;
   height:36px;
   line-height:36px;
   display:inline-block;
