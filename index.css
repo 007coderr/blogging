@@ -83,12 +83,13 @@ body {
 #navbar {
   overflow: hidden;
   background-color: white;
-  padding: 50px 5px;
+  padding: 30px 5px;
   transition: 0.4s;
   position: fixed;
   width: 100%;
   top: 0;
   z-index: 99;
+  margin-left: 0;
   box-shadow: 0 1px 1px -1px gray;
 }
 
@@ -128,18 +129,18 @@ body {
 #navbar-left a:hover {
    opacity: 0.2;
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 380px) {
   #navbar {
-    padding: 20px 10px !important;
+    padding: 30px 10px !important;
   }
   #navbar #logo {
-     font-size: 25px;
+     font-size: 18px;
   }
   #navbar a {
     float: none;
     display: inline;
     text-align: right;
-    font-size: 20px; 
+    font-size: 18px; 
   }
   #navbar-right {
     float: right;
@@ -197,13 +198,13 @@ body {
   }
 
 .footer-dark {
-  padding: 10px 0;
+  padding: 20px 0;
   color:#f0f9ff;
   background-color:#282d32;
 }
 @media (max-width:480px) {
   .footer-dark {
-    width: 480px;
+    width: 100%;
   } 
 }
 .footer-dark h3 {
@@ -282,10 +283,11 @@ body {
 
 .footer-dark .copyright {
   text-align:center;
-  padding-top:24px;
+  padding-top:15px;
   opacity:0.3;
   font-size:13px;
   margin-bottom:0;
+  padding-bottom: 20px;
 }
 #slider {
   margin-left: 35px;
