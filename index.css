@@ -318,7 +318,7 @@ body {
 }
 
 /* Responsive columns */
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 480px) {
   .column {
     width: 100%;
     margin: 0;
@@ -326,8 +326,8 @@ body {
     margin-bottom: 20px;
   }
   .card {
-   width: 500px;
-   height: 600px;
+   width: 600px;
+   height: 800px;
   }
 }
 
