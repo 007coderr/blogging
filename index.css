@@ -198,6 +198,13 @@ body {
   }
 
 /* slider code*/
+.slideressential {
+display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: 'Fira Sans', sans-serif;
+}
 .blog-card{
   position: absolute;
   height: 370px;
